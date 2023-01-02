@@ -3,9 +3,9 @@ import { createTheme } from "@mui/material/styles";
 import { useSelector } from "react-redux";
 import { themeSettings } from "theme";
 import { useMemo } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Dashboard } from "scenes/dashboard";
-import { Layout } from "scenes/layout";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import  Dashboard  from "scenes/dashboard";
+import  Layout  from "scenes/layout";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
