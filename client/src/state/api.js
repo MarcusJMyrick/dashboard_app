@@ -5,14 +5,14 @@ export const api = createApi({
   reducerPath: "adminApi",
   tagTypes: [
     "User",
-    "Products",
+    /* "Products",
     "Customers",
     "Transactions",
     "Geography",
     "Sales",
     "Admins",
     "Performance",
-    "Dashboard",
+    "Dashboard", */
   ],
   endpoints: (build) => ({
     getUser: build.query({
