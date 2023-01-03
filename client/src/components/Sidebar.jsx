@@ -200,4 +200,4 @@ const navItems = [
   );
 };
 
-export default Sidebar
+export default Sidebar;
