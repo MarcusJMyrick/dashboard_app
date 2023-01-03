@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {} from 'react'
 import { 
     LightModeOutlined, 
     DarkModeOutlined, 
@@ -62,11 +62,11 @@ const Navbar = () => {
                 <LightModeOutlined sx={{ fontSize: "25px" }} />
                 )}
                 </IconButton>
-                    <IconButton>
-                        <SettingsOutlined sx={{ fontSize: "25px" }} />
-                    </IconButton>
-                </FlexBetween>
-            </Toolbar>
+                <IconButton>
+                    <SettingsOutlined sx={{ fontSize: "25px" }} />
+                </IconButton>
+            </FlexBetween>
+        </Toolbar>
     </AppBar>
 };
 export default Navbar;
